@@ -25,6 +25,7 @@
     "react-native-fontawesome": "^5.7.0",
     "react-native-hyperlink": "^0.0.12",
     "react-navigation": "^1.0.0-beta.27",
+    "react-native-mapbox-gl": "mapbox/react-native-mapbox-gl.git#b46ea8da99",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-offline": "^2.0.0",
