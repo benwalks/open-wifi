@@ -24,13 +24,6 @@ const FlashMessage = ({ close, heading, content, icon }) => (
   </Card>
 );
 
-FlashMessage.propTypes = {
-  heading: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
-  close: PropTypes.func.isRequired,
-};
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

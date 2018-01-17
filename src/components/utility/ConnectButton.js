@@ -32,13 +32,6 @@ class ConnectButton extends Component {
   }
 }
 
-ConnectButton.propTypes = {
-  text: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
-  colour: PropTypes.string.isRequired,
-  action: PropTypes.func,
-};
-
 const styles = StyleSheet.create({
   text: {
     color: '#fff',

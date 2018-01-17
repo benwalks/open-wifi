@@ -1,15 +1,18 @@
 import React from 'react';
-import { Image, Text, StyleSheet } from 'react-native';
+import { Image, Text, StyleSheet, ImageBackground } from 'react-native';
 
 export default () => (
-  <Image style={styles.background} source={require('../../img/loadingbg.png')}>
+  <ImageBackground
+    style={styles.background}
+    source={require('../../img/loadingbg.png')}
+  >
     <Image style={styles.cquLogo} source={require('../../img/cqulogo.png')} />
     <Text style={styles.title}>Open WiFi</Text>
     <Text style={styles.subtitle}>
       Connecting Communities To Free Internet Services
     </Text>
     <Image style={styles.audaLogo} source={require('../../img/audalogo.png')} />
-  </Image>
+  </ImageBackground>
 );
 
 const styles = StyleSheet.create({

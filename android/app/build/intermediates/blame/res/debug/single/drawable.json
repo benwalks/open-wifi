@@ -16,6 +16,14 @@
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/wifimarkerselected.png",
+        "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/src/main/res/drawable/wifimarkerselected.png"
+    },
+    {
+        "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/cqulogo.png",
+        "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/src/main/res/drawable/cqulogo.png"
+    },
+    {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
     },
@@ -64,6 +72,10 @@
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
+        "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/audalogo.png",
+        "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/src/main/res/drawable/audalogo.png"
+    },
+    {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
     },
@@ -84,6 +96,10 @@
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.2/res/drawable/ic_info_outline_24dp_selector.xml"
     },
     {
+        "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/loadingbg.png",
+        "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/src/main/res/drawable/loadingbg.png"
+    },
+    {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
     },
@@ -98,6 +114,10 @@
     {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/wifimarkermuted.png",
+        "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/src/main/res/drawable/wifimarkermuted.png"
     },
     {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/ic_mylocationview_background.xml",
@@ -118,6 +138,10 @@
     {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/wifimarker.png",
+        "source": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/src/main/res/drawable/wifimarker.png"
     },
     {
         "merged": "/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",

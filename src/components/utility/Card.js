@@ -3,10 +3,6 @@ import { View, StyleSheet } from 'react-native';
 
 const Card = ({ children }) => <View style={styles.card}>{children}</View>;
 
-Card.propTypes = {
-  children: PropTypes.element.isRequired,
-};
-
 const styles = StyleSheet.create({
   card: {
     zIndex: 10,

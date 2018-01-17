@@ -1,10 +1,16 @@
-import React from 'react'
-import { View, StyleSheet, Text, TouchableHighlight, Platform } from 'react-native'
-import FontAwesome, { Icons } from 'react-native-fontawesome'
-import PropTypes from 'prop-types'
+import React from 'react';
+import {
+  View,
+  StyleSheet,
+  Text,
+  TouchableHighlight,
+  Platform,
+} from 'react-native';
+import FontAwesome, { Icons } from 'react-native-fontawesome';
+import PropTypes from 'prop-types';
 
-import InfoCard from './InfoCard'
-import ConnectButton from './ConnectButton'
+import InfoCard from './InfoCard';
+import ConnectButton from './ConnectButton';
 
 const HotspotInfo = ({
   name,
@@ -21,10 +27,10 @@ const HotspotInfo = ({
   isConnecting,
   isConnected,
   currentSSID,
-  reportWifi
+  reportWifi,
 }) => {
-  const dist = distance()
-  let button
+  const dist = distance();
+  let button;
 
   if (Platform.OS === 'ios') {
     if (dist <= 25) {
@@ -32,15 +38,15 @@ const HotspotInfo = ({
         <View style={styles.buttonSection}>
           <ConnectButton
             text="You're in range!"
-            icon='wifi'
-            colour='#CD5602'
+            icon="wifi"
+            colour="#CD5602"
             action={null}
           />
           <Text style={styles.tooFar}>
             Connect to this access point in your wifi settings!
           </Text>
         </View>
-      )
+      );
     } else {
       button = (
         <View style={styles.buttonSection}>
@@ -48,45 +54,45 @@ const HotspotInfo = ({
             Please move closer to this wifi point to be within range
           </Text>
         </View>
-      )
+      );
     }
   } else {
     if (available) {
       button = (
         <View style={styles.buttonSection}>
           <ConnectButton
-            text='CONNECT'
-            icon='wifi'
-            colour='#CD5602'
+            text="CONNECT"
+            icon="wifi"
+            colour="#CD5602"
             action={() => onConnectTouch(ssid, password)}
           />
         </View>
-      )
+      );
     }
 
     if (ssid === currentSSID && isConnected) {
       button = (
         <View style={styles.buttonSection}>
           <ConnectButton
-            text='CONNECTED!'
-            icon='check'
-            colour='#ADBDF0'
+            text="CONNECTED!"
+            icon="check"
+            colour="#ADBDF0"
             action={null}
           />
         </View>
-      )
+      );
     }
     if (available && isConnecting && !isConnected) {
       button = (
         <View style={styles.buttonSection}>
           <ConnectButton
-            text='Connecting...'
-            icon='spinner'
-            colour='#CD5602'
+            text="Connecting..."
+            icon="spinner"
+            colour="#CD5602"
             action={null}
           />
         </View>
-      )
+      );
     }
 
     if (!available && dist && dist > 25) {
@@ -94,7 +100,7 @@ const HotspotInfo = ({
         <Text style={styles.tooFar}>
           We can't detect this access point, try moving closer
         </Text>
-      )
+      );
     }
 
     if (available && dist && dist <= 25) {
@@ -102,7 +108,7 @@ const HotspotInfo = ({
         <TouchableHighlight
           onPress={reportWifi}
           activeOpacity={1}
-          underlayColor='transparent'
+          underlayColor="transparent"
         >
           <View style={styles.reportWrap}>
             <Text style={styles.reportText}>
@@ -110,15 +116,13 @@ const HotspotInfo = ({
             </Text>
           </View>
         </TouchableHighlight>
-      )
+      );
     }
 
     if (!wifiEnabled) {
       button = (
-        <Text style={styles.tooFar}>
-          Please turn on your wifi connection
-        </Text>
-      )
+        <Text style={styles.tooFar}>Please turn on your wifi connection</Text>
+      );
     }
   }
 
@@ -142,9 +146,7 @@ const HotspotInfo = ({
           </View>
           <View style={styles.reviewSection}>
             <View style={styles.reviewType}>
-              <FontAwesome style={styles.reviewIcon}>
-                {Icons.wifi}
-              </FontAwesome>
+              <FontAwesome style={styles.reviewIcon}>{Icons.wifi}</FontAwesome>
               <Text style={styles.reviewText}>Last connection: </Text>
             </View>
             <Text style={styles.reviewNumber}>{lastConnected}</Text>
@@ -161,32 +163,13 @@ const HotspotInfo = ({
             </Text>
           </View>
         </View>
-        <View style={styles.buttonWrap}>
-          {button}
-        </View>
+        <View style={styles.buttonWrap}>{button}</View>
       </View>
     </InfoCard>
-  )
-}
+  );
+};
 
-HotspotInfo.propTypes = {
-  name: PropTypes.string.isRequired,
-  ssid: PropTypes.string.isRequired,
-  password: PropTypes.string,
-  distance: PropTypes.func.isRequired,
-  formattedDistance: PropTypes.func.isRequired,
-  onConnectTouch: PropTypes.func.isRequired,
-  available: PropTypes.bool.isRequired,
-  wifiEnabled: PropTypes.bool,
-  currentSSID: PropTypes.string.isRequired,
-  isConnecting: PropTypes.bool.isRequired,
-  isConnected: PropTypes.bool,
-  connections: PropTypes.number.isRequired,
-  lastConnected: PropTypes.string,
-  businessPartner: PropTypes.bool.isRequired
-}
-
-export default HotspotInfo
+export default HotspotInfo;
 
 const styles = StyleSheet.create({
   header: {
@@ -194,73 +177,73 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderBottomWidth: 1,
     borderBottomColor: '#9F9F9F',
-    paddingBottom: 15
+    paddingBottom: 15,
   },
   title: {
     color: '#CD5602',
-    maxWidth: 80 + '%'
+    maxWidth: 80 + '%',
   },
   distance: {
     marginLeft: 'auto',
-    color: '#CD5602'
+    color: '#CD5602',
   },
   reviews: {
     paddingTop: 15,
-    paddingBottom: 15
+    paddingBottom: 15,
   },
   reviewTitle: {
     color: '#CD5602',
-    paddingBottom: 10
+    paddingBottom: 10,
   },
   reviewSection: {
     display: 'flex',
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   reviewIcon: {
     color: '#9F9F9F',
     fontSize: 12,
     width: 15,
-    marginRight: 8
+    marginRight: 8,
   },
   reviewText: {
     color: '#9F9F9F',
-    marginLeft: 3
+    marginLeft: 3,
   },
   reviewType: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    width: 50 + '%'
+    width: 50 + '%',
   },
   reviewNumber: {
     fontSize: 14,
-    color: '#2D2D2D'
+    color: '#2D2D2D',
   },
   reviewStars: {
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   reviewStar: {
     fontSize: 14,
-    color: '#CD5602'
+    color: '#CD5602',
   },
   tooFar: {
     textAlign: 'center',
     fontSize: 14,
     color: '#CD5602',
-    marginTop: 3
+    marginTop: 3,
   },
   buttonWrap: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   reportWrap: {
-    width: 60 + '%'
+    width: 60 + '%',
   },
   reportText: {
     fontSize: 14,
-    color: '#CD5602'
-  }
-})
+    color: '#CD5602',
+  },
+});

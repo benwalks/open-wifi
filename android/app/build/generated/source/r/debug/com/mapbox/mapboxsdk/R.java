@@ -657,21 +657,21 @@ public final class R {
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f020049;
 		public static final int abc_textfield_search_material = 0x7f02004a;
 		public static final int attribution_logo = 0x7f02004b;
-		public static final int bg_default_selector = 0x7f02004c;
-		public static final int bg_infowindow_content = 0x7f02004d;
-		public static final int compass = 0x7f02004e;
-		public static final int default_marker = 0x7f02004f;
-		public static final int default_markerview = 0x7f020050;
-		public static final int design_fab_background = 0x7f020051;
-		public static final int design_snackbar_background = 0x7f020052;
-		public static final int ic_info_outline_24dp = 0x7f020053;
-		public static final int ic_info_outline_24dp_selected = 0x7f020054;
-		public static final int ic_info_outline_24dp_selector = 0x7f020055;
-		public static final int ic_mylocationview_background = 0x7f020056;
-		public static final int ic_mylocationview_bearing = 0x7f020057;
-		public static final int ic_mylocationview_normal = 0x7f020058;
-		public static final int mapview_preview = 0x7f020059;
-		public static final int notification_template_icon_bg = 0x7f02005a;
+		public static final int bg_default_selector = 0x7f02004d;
+		public static final int bg_infowindow_content = 0x7f02004e;
+		public static final int compass = 0x7f02004f;
+		public static final int default_marker = 0x7f020051;
+		public static final int default_markerview = 0x7f020052;
+		public static final int design_fab_background = 0x7f020053;
+		public static final int design_snackbar_background = 0x7f020054;
+		public static final int ic_info_outline_24dp = 0x7f020055;
+		public static final int ic_info_outline_24dp_selected = 0x7f020056;
+		public static final int ic_info_outline_24dp_selector = 0x7f020057;
+		public static final int ic_mylocationview_background = 0x7f020058;
+		public static final int ic_mylocationview_bearing = 0x7f020059;
+		public static final int ic_mylocationview_normal = 0x7f02005a;
+		public static final int mapview_preview = 0x7f02005c;
+		public static final int notification_template_icon_bg = 0x7f020060;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f0e0087;

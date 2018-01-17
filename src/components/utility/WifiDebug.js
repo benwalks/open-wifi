@@ -17,10 +17,6 @@ const WifiDebug = ({ availHotspots }) => {
   ) : null;
 };
 
-WifiDebug.propTypes = {
-  availHotspots: PropTypes.array.isRequired,
-};
-
 export default WifiDebug;
 
 const styles = StyleSheet.create({

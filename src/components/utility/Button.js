@@ -32,13 +32,6 @@ const Button = ({ text, icon, colour, action }) => (
   </TouchableHighlight>
 );
 
-Button.propTypes = {
-  text: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
-  colour: PropTypes.string.isRequired,
-  action: PropTypes.func.isRequired,
-};
-
 const styles = StyleSheet.create({
   text: {
     color: '#fff',

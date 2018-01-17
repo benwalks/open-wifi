@@ -22,11 +22,6 @@ const AppWithNavigationState = ({ dispatch, nav, store }) => {
   );
 };
 
-AppWithNavigationState.propTypes = {
-  dispatch: PropTypes.func.isRequired,
-  nav: PropTypes.object.isRequired,
-};
-
 const mapStateToProps = state => ({
   nav: state.nav,
 });
