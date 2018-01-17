@@ -1,0 +1,4 @@
+#Wed Jan 17 13:31:34 AEST 2018
+base.0=/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

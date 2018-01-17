@@ -32,7 +32,8 @@ const formatDistance = meters => {
   }
   if (meters > 1099) {
     // Return result in km
-    return `${(parseInt(meters) / 1000).toPrecision(3)}km`;
+    const kilometers = parseInt(meters) / 1000;
+    return `${kilometers}km`;
   }
   return `${parseInt(meters)}m`;
 };
