@@ -3,33 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_a1d4e8908dcc54d4b7edaa3be9e38a0c2db6bf0b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_8e8eb86c36139b8567befff4bfc4e69569acc8a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_ddc4dbe37710691a81b1c0ebfd87f700c50a2c5c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,21 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_c03eb5d70137b54d2c4c18c8a9db9e4050bb03ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_56110486e62350c3ae8bd371e6ca4d9b4fb8f1c1.jar" />
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_df5a8b023936e5857b7c52c7fdd4a8532902148f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,21 +39,66 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_10cfa084ce8cbd71bf495e9781cffacf88ba063b.jar" />
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2ea52442a4fafc4ac6488ca7c9d04b05167ee8ec.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_5d26411af47546254d2605a668c3fe680730a8dd.jar" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_775299c619d856ee16bdd8aada11d18bdfedd920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c839946581b62966a75ad3119e92ffa7b3d05b4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_a1d4e8908dcc54d4b7edaa3be9e38a0c2db6bf0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_8966d42b1f726beedcdaa2366cdddeaa5105ddaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_5ea310fe0bd909e688a1a2787986af3e0747a5d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_56110486e62350c3ae8bd371e6ca4d9b4fb8f1c1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,21 +111,93 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.mapbox.mapboxsdk/mapbox-android-sdk/4.2.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2ea52442a4fafc4ac6488ca7c9d04b05167ee8ec.jar" />
+        sha1="c77ef83420db92b311d7f6ea0240a5e000b20d82">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.mapbox.mapboxsdk-mapbox-android-sdk-4.2.2_e41588c23563fa10d2bea3b075f2672971f8f803.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/cquopen/react-native-android-wifi/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_67f058107c7db0b6067dca9623a9b50059955465.jar" />
+        sha1="bd940e7dff86338889890f31b90bdc3a725b46d3">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/cquopen-react-native-android-wifi-unspecified_4afff48a49077d57f9b53f3a4eb45464eafe9987.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.3.1_f431a9794a1d28b6401fc6bc8231624a287de783.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_6ed855c91cbd3350dd3d9139dcc28fa7021d66c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.mapzen.android/lost/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c9d0d2b21baebf49c526d857991e2d48f30fcb00">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.mapzen.android-lost-1.1.1_be8432b6eff63867ecb222a59ea64cfd7297e065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_10f4b397abc4efda49ff9d613a0f0465ef5d4574.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/cquopen/react-native-mapbox-gl/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4d3c0758ba77a35f295d47603f41204c180c6d5e">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/cquopen-react-native-mapbox-gl-unspecified_575011b7a60f5dc2e827d95c796d95697e315026.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_ce065b3c81b575c4df8165de88962a12eadca0f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_c03eb5d70137b54d2c4c18c8a9db9e4050bb03ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_4ad0fd0c8f4fe73d2ce91a50ed9949981d3474eb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,39 +219,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_6ed855c91cbd3350dd3d9139dcc28fa7021d66c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c839946581b62966a75ad3119e92ffa7b3d05b4e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_65d7fcb3c904d4b0958db1a36156582f7462bf48.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_10f4b397abc4efda49ff9d613a0f0465ef5d4574.jar" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_a6127fff17b3c68651929311ba7da43884cece32.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +237,84 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_394f313d12e745fac2a2ce54d86626b681eacd39.jar" />
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_8e8eb86c36139b8567befff4bfc4e69569acc8a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-java-services/1.3.1/6bda5f2cf57af827c1a9703a77ed9e451e6d6d25/mapbox-java-services-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6bda5f2cf57af827c1a9703a77ed9e451e6d6d25">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/mapbox-java-services-1.3.1_7666f599c30cbee12fc1437985e4ecff5bec9484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_6cdf1b20999ccfda38e0e9219ca6dfe97dad9e20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/gson-2.7_678829a552b5e8933286affae3dcd1cc5facc481.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_10cfa084ce8cbd71bf495e9781cffacf88ba063b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_67f058107c7db0b6067dca9623a9b50059955465.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_a95bf04b0eae67e77de0d54c2ea4a75341c809c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_fb43e9fdb962c1f37fe916cefe7b5df615172615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ben/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/ben/Desktop/dev/clientwork/cqu-wifi/cqu-open/android/app/build/intermediates/pre-dexed/debug/guava-18.0_ffcf83ad33acdebbfb285b909718d5405046c5ea.jar" />
     </item>
 
 </items>
