@@ -6,8 +6,10 @@ This project creates a cross-platform mobile application that automatically iden
 
 ## Latest changes warning(!)
 
-The most recent version of this project required a complete ground-up project restart and has only been created
-with Android in mind.
+The most recent version of this project required a complete ground-up project restart and has been created
+with a focus on Android compatability.
+
+Only very small adjustments are required to add iOS compatability.
 
 ## Running the project
 
